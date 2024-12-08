@@ -429,7 +429,7 @@ void setNextFigure(int p[][N])
         case  3:
         case  4:
         case  5:
-        case  6:
+        case  6: p[3][3] = RED; p[3][2] = RED; p[4][3] = RED; break;
         case  7: p[3][3] = RED; p[3][2] = RED; p[3][4] = RED; p[4][3] = RED; break;
         case  8:
         case  9:
